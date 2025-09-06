@@ -1,24 +1,90 @@
-HTML - Hyper Text Markup Language
+# HTML - HyperText Markup Language
 
-Hyper text - means it is connected with other links
-Markup - means make the page well structured
+**HTML** stands for **HyperText Markup Language**.
 
-here we will use h1 - h6 tags for heading.
-h1,h2,h3...h6 will hsve different priorities in SEO. 
-Here h1 has the highest priority.
-and another difference is of font size
-h1 will be the largest element and the h6 will be the smallest one.
+- **HyperText**: Refers to text that is linked to other documents or web pages.
+- **Markup**: Means structuring content using tags.
 
-we have <p> for adding the paragrap
-and always remember to close the elelment by using closing tag.
-for example if you want to close paragraph then use </p>
+---
 
-We have <br>, which is also known as self closing tag.
-it is used to add some lines after the current line or we can alsoused for breaking the line
+## Headings
 
-<ol> </ol> is used to created the ordered list while the <ul> used for unordered list
-to add any item in the list we will use <li> </li> tag
+HTML provides six heading tags: `h1` to `h6`.
 
-<a href="https://www.google.com/maps/?entry=wc">link</a>
-this is used to go to any website. but the problem is that the website is opening in the same page.
-if we want to open it in the different page, we will use target attribute. for the formality keem "_blank"
+- `h1` is the most important for SEO and is the largest in size.
+- `h6` is the least important and the smallest.
+
+Example:
+
+```html
+<h1>Main Heading</h1>
+<h2>Subheading</h2>
+...
+<h6>Smallest Heading</h6>
+```
+
+---
+
+## Paragraphs
+
+Use the `<p>` tag to add paragraphs.  
+Always close tags properly:
+
+```html
+<p>This is a paragraph.</p>
+```
+
+---
+
+## Line Breaks
+
+The `<br>` tag creates a line break.  
+It is a self-closing tag:
+
+```html
+Line one.<br>
+Line two.
+```
+
+---
+
+## Lists
+
+- **Ordered List**: Use `<ol>` for numbered lists.
+- **Unordered List**: Use `<ul>` for bulleted lists.
+- **List Items**: Use `<li>` for each item.
+
+Example:
+
+```html
+<ol>
+    <li>First item</li>
+    <li>Second item</li>
+</ol>
+
+<ul>
+    <li>Bullet one</li>
+    <li>Bullet two</li>
+</ul>
+```
+
+---
+
+## Links
+
+Use the `<a>` tag to create hyperlinks:
+
+```html
+<a href="https://www.google.com/maps/?entry=wc">Google Maps</a>
+```
+
+By default, links open in the same tab.  
+To open in a new tab, add the `target="_blank"` attribute:
+
+```html
+<a href="https://www.google.com/maps/?entry=wc" target="_blank">Google Maps</a>
+```
+
+---
+
+**Tip:** Always close your HTML tags properly for well-structured pages!
